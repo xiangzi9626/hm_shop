@@ -1,0 +1,38 @@
+
+page{
+		height: 100%;
+}
+.pics{
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.pics .left{
+	width: 200rpx;
+	height: 100%;
+	border-right: 1px solid #eee;
+}
+.pics .left view{
+	height: 60px;
+	line-height: 60px;
+	color: #333;
+	text-align: center;
+	font-size: 30rpx;
+	border-top: 1px solid #eee;
+}
+.active{
+	background: #b50e03;
+	color: #fff !important;
+}
+.right{
+	width: 530rpx;
+	height: 100%;
+	margin: 0 auto;
+}
+.right .item image{
+	max-width: 530rpx;
+	max-height: 100%;
+	margin-bottom: 20rpx;
+}
+

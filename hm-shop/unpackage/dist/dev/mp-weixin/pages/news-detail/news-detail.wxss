@@ -1,0 +1,23 @@
+
+.news-detail{
+	font-size: 30rpx;
+	padding: 0 20rpx 20px 20rpx;
+}
+.news-detail .title{
+	width: 710rpx;
+	text-align: center;
+	margin: 20rpx 0;
+}
+.news-detail .info{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.news-detail .title text{
+	display: inline-block;
+	text-align: left;
+}
+
