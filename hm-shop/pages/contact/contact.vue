@@ -2,7 +2,7 @@
 	<view class="contact">
 		<image src="/static/image/contact/contact.jpg"></image>
 		<view class="info">
-			 <view @click="phone">联系电话：400-8888-8888 ( 点击拨打 )</view>
+			 <view @click="phone">联系电话：400-888-8888 ( 点击拨打 )</view>
 			  <view>公司地址：江苏省盐城市下沙经济开发区4号大街187号盛泰时代山</view>
 		</view>
 		<map class="map" :longitude="longitude" :scale="scale" :latitude="latitude" :markers="markers"></map>
@@ -30,7 +30,7 @@
 		methods: {
 			phone(){
 				uni.makePhoneCall({
-					phoneNumber:40088888888
+					phoneNumber:'400-888-8888'
 				})
 			}
 		}
